@@ -1,7 +1,7 @@
 name: amap_flutter3_base
 description: "amap_flutter_base的flutter3适配包"
 version: 1.0.0
-homepage:
+repository: https://github.com/sunnyzl/amap_flutter3_base.git
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
