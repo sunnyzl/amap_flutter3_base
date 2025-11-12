@@ -1,7 +1,7 @@
 part of amap_flutter3_base;
 
 class AMapUtil {
-  static AMapUtil _instance = AMapUtil._();
+  static final AMapUtil _instance = AMapUtil._();
   static double _devicePixelRatio = 0;
   static void init(BuildContext context) {
     _devicePixelRatio = MediaQuery.of(context).devicePixelRatio;

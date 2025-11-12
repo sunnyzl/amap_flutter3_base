@@ -162,7 +162,7 @@ class LatLngBounds {
       assert(southwest.latitude <= northeast.latitude,
           '西南角纬度超过了东北角纬度(${southwest.latitude} > ${northeast.latitude})');
     } catch (e) {
-      print(e);
+      debugPrint('$e');
     }
   }
 
@@ -185,8 +185,7 @@ class LatLngBounds {
       return _containsLatitude(point.latitude) &&
           _containsLongitude(point.longitude);
     } catch (e) {
-      print(e);
-    }
+      debugPrint('$e');    }
     return false;
   }
 
